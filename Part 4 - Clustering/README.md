@@ -6,20 +6,27 @@ Clustering is widely applied in scenarios where the goal is to segment data with
 
 By the end of this section, you will be familiar with a variety of clustering techniques and how to apply them to real-world problems where the underlying categories or segments are unknown.
 
-### Overview of Clustering Models:
+## Overview of Clustering Models
 
 We will cover the implementation and interpretation of the following clustering models:
 
 - **K-Means Clustering**: A simple and efficient clustering algorithm that divides data into k clusters by minimizing intra-cluster variance.
 - **Hierarchical Clustering**: A method that builds a hierarchy of clusters either through a bottom-up (agglomerative) or top-down (divisive) approach, without needing to predefine the number of clusters.
 
-### Key Differences from Classification:
+## Key Differences from Classification
 Clustering differs fundamentally from classification:
 - **Unsupervised Learning**: Clustering does not require labeled data. Instead, it aims to discover the natural groupings in a dataset.
 - **Exploratory Analysis**: While classification predicts known categories, clustering helps uncover hidden structures or segments within the data, which can then be further analyzed or classified.
 
-### Use Cases:
+## Use Cases
 - **Customer Segmentation**: Grouping customers based on their purchasing behavior, demographics, or preferences.
 - **Anomaly Detection**: Identifying outliers or unusual patterns in datasets (e.g., fraud detection, defect detection in manufacturing).
 - **Market Basket Analysis**: Discovering patterns of product groupings in transactional data.
 
+## Pros and Cons of Clustering Models
+Here is the table based on the provided information:
+
+| **Clustering Model**       | **Pros**                                                                                                                                  | **Cons**                                           |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| **K-Means**                | - Simple to understand<br>- Easily adaptable<br>- Works well on small or large datasets<br>- Fast, efficient, and performant              | - Need to choose the number of clusters manually   |
+| **Hierarchical Clustering** | - Optimal number of clusters can be determined by the model itself<br>- Practical visualization with the dendrogram                       | - Not appropriate for large datasets               |
