@@ -39,7 +39,6 @@ The content is organized into ten main parts:
   - Thompson Sampling
 - **Part 7**: Natural Language Processing (NLP)
   - Bag-of-Words Model
-  - NLP Algorithms
 - **Part 8**: Deep Learning
   - Artificial Neural Networks (ANNs)
   - Convolutional Neural Networks (CNNs)
