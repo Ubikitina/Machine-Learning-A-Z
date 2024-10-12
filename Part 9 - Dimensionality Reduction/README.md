@@ -35,6 +35,11 @@ Feature Selection techniques aim to identify and retain the most relevant featur
 These techniques area already described in more detail in [Part 2 - Regression/2 Multiple Linear Regression/multiple_linear_regression.ipynb](../Part%202%20-%20Regression/2%20Multiple%20Linear%20Regression/multiple_linear_regression.ipynb).
 
 ### Feature Extraction
+
+Feature Extraction is a set of techniques used to transform raw data into a reduced set of features that retain the essential information needed for analysis and modeling. Unlike Feature Selection, which focuses on identifying and selecting a subset of the existing features, Feature Extraction creates new features from the original data.
+
+Feature Extraction transforms the original features into new ones (e.g., principal components in PCA). These new features are often combinations of the original features, which can make it challenging to interpret their significance or relate them back to the original data.
+
 In this section (Part 9), we will cover the following Feature Extraction techniques:
 
 - **Principal Component Analysis (PCA)**: A technique that transforms the data into a set of orthogonal (uncorrelated) variables called principal components, which capture the maximum variance.
