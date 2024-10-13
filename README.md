@@ -51,6 +51,7 @@ The content is organized into ten main parts:
   - Hyperparameter Tuning
   - Grid Search
   - XGBoost
+  - CatBoost
 
 Each section operates independently, allowing me to either follow the project from start to finish or focus on specific topics as needed. This flexibility is essential in adapting my learning path to my career goals.
 
